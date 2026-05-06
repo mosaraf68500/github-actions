@@ -1,9 +1,10 @@
-name: first workflows
+name: manual workflows
 
-on: [push]
+on:
+  workflow_dispatch:
 jobs:
   first-workflows:
-    name: first step
+    name: manual step
     runs-on: ubuntu-latest 
     steps:
       - name: Say hello
