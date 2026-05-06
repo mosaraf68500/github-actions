@@ -1,0 +1,9 @@
+name:first workflows
+
+on:[push]
+jobs:
+    first-workflows:
+            name:first step
+            run: |
+                 echo "hello world"
+                 echo "hello again"
