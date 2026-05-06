@@ -4,7 +4,7 @@ on: [push]
 jobs:
   first-workflows:
     name: first step
-    runs-on: macos
+    runs-on: macOS
     steps:
       - name: Say hello
         run: |
