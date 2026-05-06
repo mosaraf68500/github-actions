@@ -1,9 +1,12 @@
-name:first workflows
+name: first workflows
 
-on:[push]
+on: [push]
 jobs:
-    first-workflows:
-            name:first step
-            run: |
-                 echo "hello world"
-                 echo "hello again"
+  first-workflows:
+    name: first step
+    runs-on: macos
+    steps:
+      - name: Say hello
+        run: |
+          echo "hello world"
+          echo "hello again"
